@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Asad - Frontend Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="web.js">
+    <link rel="shortcut icon" href="black-hole.png" type="image/x-icon">
+</head>
+
+<body class="fade-in">
+
+    <!-- Theme Toggle in Bottom Right Corner -->
+    <div class="theme-toggle-corner">
+        <button id="themeToggleCorner" class="theme-toggle-btn" aria-label="Toggle theme">
+            <div class="theme-toggle-inner">
+                <i class="bi bi-moon-fill theme-toggle-icon moon-icon"></i>
+                <i class="bi bi-sun-fill theme-toggle-icon sun-icon" style="display: none;"></i>
+            </div>
+        </button>
+
+    </div>
+
+    <!-- Navbar -->
+    <header class="row justify-content-center mt-5 slide-up">
+        <nav class="col-11 col-md-10 navbar navbar-expand-lg navbar-dark px-4 border border-white rounded-3"
+            style="height: 100px; background-color: var(--dark-bg);">
+            <div class="container-fluid navbar-container">
+                <a class="navbar-brand fs-3" href="#">Muhammad Asad</a>
+
+                <div class="d-flex align-items-center navbar-toggler-container">
+                    <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav ms-auto fs-5 align-items-center">
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#technologies">Technologies</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Text -->
+                <div class="col-12 col-md-6 mt-5">
+                    <h1 id="fed" class="hero-title text-white">
+                        FRONTEND <br>DEVELOPER
+                    </h1>
+                    <p class="fs-5 mt-4 slide-up" style="animation-delay: 0.2s">I am Asad - <a href="#"
+                            style="text-decoration: none; color: blue;">web-developer</a> with a passion for <br>
+                        creating beautiful
+                        websites.</p>
+
+                    <div class="mt-4 slide-up"
+                        style="display: inline-block; padding: 3px; background: linear-gradient(to right, #ff1a1a 50%, #1a8cff 50%); border-radius: 12px; animation-delay: 0.4s">
+                        <a href="#portfolio"><button class="btn fw-bold text-white bg-dark"
+                                style="width: 170px; height: 50px; border: none; border-radius: 12px; font-size: 1rem;">
+                                View My Work
+                            </button></a>
+                    </div>
+                </div>
+
+                <!-- Image -->
+                <div class="col-12 col-md-6 mt-5 mt-md-0 text-center slide-up" style="animation-delay: 0.3s">
+                    <img src="jinwoo_sung__1_-removebg-preview.png" alt="Developer Image" class="img-fluid hover-grow"
+                        style="max-width: 100%; height: auto;" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider Line -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 mt-5 divider"></div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="container mt-5">
+        <div class="row">
+            <div class="col-12 slide-up"
+                style="font-weight: 400; font-size: 3rem; background: linear-gradient(to right, rgb(231, 110, 110), rgb(32, 57, 201)); background-clip: text; -webkit-text-fill-color: transparent;">
+                MY SERVICES
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-7 col-sm-12 border rounded-3  card-content slide-up hover-grow mt-5"
+                style="animation-delay: 0.1s; height: 100%;">
+                <div style="padding: 1rem; height: 100%;">
+                    <h3 class="fs-3 text-white m-3"><i class="bi bi-code-square me-3" style="color:blue;"></i>WEB
+                        DEVELOPMENT</h3>
+                    <p class="ms-3 mt-2 text-white">I create websites based on your ready-made design. Whether it is a
+                        landing page
+                        or a business card website. I will make it look great and work smoothly on any device.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Second Card -->
+        <div class="row d-flex justify-content-end">
+            <div class="col-md-7 col-sm-12 border rounded-3 card-content slide-up hover-grow mt-5 mb-5"
+                style="animation-delay: 0.2s; height: 100%;">
+                <div style="padding: 1rem; height: 100%;">
+                    <h3 class="fs-3 text-white m-3"><i class="bi bi-vector-pen me-3" style="color: blue;"></i>WEB DESIGN
+                    </h3>
+                    <p class="ms-3 mt-2 text-white">I can design your websites from scratch.I create modern simple user
+                        -friendly designs that match your brands and goals.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-7 col-sm-12 border rounded-3 card-content slide-up hover-grow mb-5"
+                style="animation-delay: 0.3s; height: 100%;"> <!-- Changed to height: 100% -->
+                <div style="padding: 1rem; height: 100%; ">
+                    <h3 class="fs-3 text-white m-3"><i class="bi bi-wordpress me-3" style="color: blue;"></i>WORDPRESS
+                        DEVELOPMENT</h3>
+                    <p class="ms-3 mt-2 text-white">I build websites on word press making them easy to update and
+                        manage.
+                        It's great choice for blogs, small business and portfolios.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="container-fluid">
+        <div class="row mt-5 mb-5">
+            <div class="col-12 divider"></div>
+        </div>
+    </div>
+
+    <!-- SKILLS Section -->
+    <section id="technologies">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 slide-up"
+                    style="font-weight: 400; font-size: 3rem; background: linear-gradient(to right, rgb(231, 110, 110), rgb(32, 57, 201)); background-clip: text; -webkit-text-fill-color: transparent;">
+                    SKILLS
+                </div>
+            </div>
+
+            <!-- Icon Row -->
+            <div class="row justify-content-center gap-4 slide-up"
+                style="margin-top: 100px; margin-bottom: 150px; animation-delay: 0.2s">
+                <div class="col-4 col-sm-2 text-center">
+                    <i class="fab fa-html5 hover-grow" style="font-size: 3rem; color: #e34c26;"></i>
+                </div>
+                <div class="col-4 col-sm-2 text-center">
+                    <i class="fab fa-css3-alt hover-grow" style="font-size: 3rem; color: #1572b6;"></i>
+                </div>
+                <div class="col-4 col-sm-2 text-center">
+                    <i class="fab fa-bootstrap hover-grow" style="font-size: 3rem; color: #7952b3;"></i>
+                </div>
+                <div class="col-4 col-sm-2 text-center">
+                    <i class="fas fa-exchange-alt hover-grow" style="font-size: 3rem; color: #ff8c00;"></i>
+                </div>
+                <div class="col-4 col-sm-2 text-center">
+                    <i class="fab fa-js hover-grow" style="font-size: 3rem; color: #0769ad;"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid">
+        <div class="row mt-5 mb-5">
+            <div class="col-12 divider"></div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 slide-up"
+                    style="font-weight: 400; font-size: 3rem; background: linear-gradient(to right, rgb(231, 110, 110), rgb(32, 57, 201)); background-clip: text; -webkit-text-fill-color: transparent;">
+                    PORTFOLIO
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5">
+            <div class="row g-4 justify-content-center">
+                <!-- Project Card 1 -->
+                <div class="col-12 col-sm-6 col-lg-4 slide-up" style="animation-delay: 0.1s">
+                    <a href="https://asadjaved070.github.io/Netflix/" target="_blank" class="text-decoration-none">
+                        <div class="card h-100 portfolio-card hover-grow">
+                            <img src="S.png" class="card-img-top" alt="Project"
+                                style="height: 200px; object-fit: cover;">
+                            <div class="card-body text-center p-4">
+                                <h3 class="fs-5 mb-2 gradient-text fw-semibold">Netflix Clone WEBSITE</h3>
+                                <p class="mb-0">(HTML, CSS, BOOTSTRAP, JS)</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="col-12 col-sm-6 col-lg-4 slide-up" style="animation-delay: 0.2s">
+                    <a href="https://asadjaved070.github.io/T-coder/" target="_blank"
+                        class="text-decoration-none">
+                        <div class="card h-100 portfolio-card hover-grow">
+                            <img src="psecond.png" class="card-img-top" alt="Project"
+                                style="height: 200px; object-fit: cover;">
+                            <div class="card-body text-center p-4">
+                                <h3 class="fs-5 mb-2 gradient-text fw-semibold">TECH AGENCY WEBSITE</h3>
+                                <p class="mb-0">(HTML, CSS, BOOTSTRAP, JS)</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="col-12 col-sm-6 col-lg-4 slide-up" style="animation-delay: 0.3s">
+                    <a href="https://asadjaved070.github.io/solo-levelling/" target="_blank" class="text-decoration-none">
+                        <div class="card h-100 portfolio-card hover-grow">
+                            <img src="as.png" class="card-img-top" alt="Project"
+                                style="height: 200px; object-fit: cover;">
+                            <div class="card-body text-center p-4">
+                                <h3 class="fs-5 mb-2 gradient-text fw-semibold">ECOMMERCE WEBSITE</h3>
+                                <p class="mb-0">(HTML, CSS, BOOTSTRAP, JS)</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid">
+        <div class="row mt-5 mb-5">
+            <div class="col-12 divider"></div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container-fluid contact-section slide-up"
+        style="background-color: #0D1B2A; color: white; padding: 60px 20px; font-family: 'Segoe UI', sans-serif;">
+        <div class="container">
+            <div class="row text-start align-items-start">
+                <!-- Left Column -->
+                <div class="col-md-6 mb-4">
+                    <h2>
+                        <span class="fs-2 mb-3" style="display: block; background: linear-gradient(to right, #ff007a, #6c63ff); 
+              background-clip: text;
+               -webkit-text-fill-color: transparent;">
+                            DO YOU HAVE A PROJECT TO <br>DISCUSS?
+                        </span>
+                        <span>GET IN TOUCH <i class="fa-regular fa-message"></i></span>
+                    </h2>
+                    <div class="mt-4">
+                        <h6>CONTACT</h6>
+                        <p><a href="mailto:asadjaved8147@gmail.com"
+                                style="color: inherit; text-decoration: none;">asadjaved8147@gmail.com</a></p>
+                        <h6>SOCIAL MEDIA</h6>
+                        <div>
+                            <a href="https://www.linkedin.com/in/asad-javed-445b43375/" class="text-white me-3"
+                                style="font-size: 18px;"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/share/19TUrLesgq/?mibextid=wwXIfr" class="text-white me-3"
+                                style="font-size: 18px;"><i class="fab fa-facebook"></i></a>
+                            <a href="https://instagram.com/noxauraa" class="text-white me-3" style="font-size: 18px;"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://wa.me/+923091078253" class="text-white me-3" style="font-size: 18px;"><i
+                                    class="fab fa-whatsapp"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column - Contact Form -->
+                <div class="col-md-6">
+                    <h5 class="mb-3">CONTACT FORM</h5>
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Name" required
+                                style="background-color: transparent; border: 1px solid #555; color: white;">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Email" required
+                                style="background-color: transparent; border: 1px solid #555; color: white;">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="message" rows="3" placeholder="Message" required
+                                style="background-color: transparent; border: 1px solid #555; color: white;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary hover-grow"
+                            style="width: 150px; height: 45px; border-radius: 999px; background: linear-gradient(to right, #00f2fe, #4facfe); border: none;">
+                            SEND
+                        </button>
+                    </form>
+                    <div id="formMessage" class="mt-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 divider"></div>
+        </div>
+    </div>
+
+    <footer class="container-fluid" style="height: 80px;">
+        <div class="row">
+            <p class="d-flex justify-content-center align-items-center mt-4"> &copy; 2025 Muhammad Asad. All rights
+                reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="web.js"></script>
+   
+</body>
+
+</html>
